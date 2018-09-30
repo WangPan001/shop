@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+    list-style-type: none;
+    font-family: Microsoft YaHei;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/login1/1440.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+h1 {
+    font-size: 18px;
+    padding: 20px 0 10px 30px;
+    color: #fff
+}
+
+.warp {
+    width: 380px;
+    margin: 0 auto 0 auto;
+    padding-top: 8%
+}
+
+.logo {
+    width: 380px;
+    height: 55px;
+    background: url(../images/login1/logo.png) no-repeat;
+    margin: 0 auto;
+}
+
+.loginbox {
+    width: 380px;
+    background-color: rgba(53, 41, 43, 0.5);
+    border: 1px #bdbdbd solid;
+    margin-top: 30px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+}
+
+.list {
+    width: 318px;
+    margin: 15px auto;
+}
+
+.listinp {
+    width: 298px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0px 10px;
+    border: 1px #999999 solid;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(31, 27, 24, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+}
+
+.listinp::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+
+.listinp:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.listinp:focus {
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+input {
+    outline: none;
+}
+
+.listbox {
+    width: 320px;
+    margin: 0 auto;
+    border-top: 1px #bdbdbd solid;
+    text-decoration: none;
+}
+
+.forget {
+    float: right;
+    font-size: 13px;
+    color: #bdbdbd;
+    margin-top: 15px;
+    margin-right: 0px;
+    width: 90px;
+}
+
+.remember {
+    float: left;
+    font-size: 13px;
+    margin: 15px auto;
+    color: #ffffff;
+}
+
+.rememberbox {
+    margin-right: 5px;
+}
+
+.remember:hover, .forget:hover {
+    text-decoration: none;
+}
+
+.forget:hover {
+    color: #FFFFFF;
+}
+
+.login {
+    width: 320px;
+    margin: 10px auto 20px auto;
+}
+
+.login .btn {
+    border: 0;
+    width: 320px;
+    height: 40px;
+    line-height: 30px;
+    background: #078be4;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.login .btn:hover {
+    cursor: pointer;
+    background: #27a8ff;
+}
+
+.register {
+    width: 320px;
+    height: 18px;
+    color: #bdbdbd;
+    padding-bottom: 15px;
+    padding-top: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.registerfree {
+    font-size: 13px;
+    margin: 10px auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.registerfree:hover {
+    text-decoration: none;
+}
+
+.progresstext {
+    height: 60px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.li-first {
+    font-size: 12px;
+    line-height: 20px;
+    color: #bdbdbd;
+}

@@ -1,0 +1,39 @@
+server:
+  port: 8893
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://admin:admin@localhost:8890/eureka/
+  instance:
+    ip-address: true
+spring:
+  application:
+    name: service-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ds_user?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    username: test
+    password: 
+  redis: 
+    shiro: 
+      host: 
+      port: 0000
+      timeout: 10
+      password:
+  thymeleaf:
+    mode: LEGACYHTML5
+#  spring.thymeleaf.content-type=text/html
+#  spring.thymeleaf.cache=false
+#  spring.thymeleaf.mode =LEGACYHTML5
+#日志打印
+logging:
+  config: classpath:log4j2-spring.xml
+  level:
+    com:
+      shop:
+        cn:
+          dao: DEBUG
+mybatis:
+  mapper-locations: classpath:com/shop/cn/mapper/*.xml
+  typeAliasesPackage: com.shop.cn.model.entity
+    
